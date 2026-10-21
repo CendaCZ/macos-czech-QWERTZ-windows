@@ -1,0 +1,397 @@
+file: ../Czech (Windows original).keylayout
+name='Czech (Windows original)' id=-30105 group=126 maxout=1
+
+modifier maps:
+  modifierMap id=mods:
+    index 0: ['anyControl anyShift? caps?']
+    index 1: ['anyShift caps? command']
+    index 2: ['anyOption anyControl?']
+    index 3: ['anyShift anyOption anyControl?']
+    index 4: ['caps']
+    index 5: ['caps anyShift']
+    index 6: ['caps anyOption anyControl?']
+    index 7: ['caps anyShift anyOption anyControl?']
+
+mapSets: ['csm'] — showing 'csm'
+
+=== keyMap index 0 ===
+  ISO § (next to LShift)     ( 10): '\\'
+  grave/tilde (left of 1)    ( 50): ';'
+  1                          ( 18): '+'
+  2                          ( 19): 'ě'
+  3                          ( 20): 'š'
+  4                          ( 21): 'č'
+  5                          ( 23): 'ř'
+  6                          ( 22): 'ž'
+  7                          ( 26): 'ý'
+  8                          ( 28): 'á'
+  9                          ( 25): 'í'
+  0                          ( 29): 'é'
+  minus (-_)                 ( 27): '='
+  equal (=+)                 ( 24): "<action 'dead_s_acute' (dead)>"   [DEAD -> state s_acute]
+  Q                          ( 12): 'q'
+  W                          ( 13): 'w'
+  E                          ( 14): 'e'   [states: s_acute:é, s_diaeresis:ë, s_caron:ě, s_circumflex:ê, s_ogonek:ę, s_grave:è, s_dotabove:ė]
+  R                          ( 15): 'r'   [states: s_acute:ŕ, s_caron:ř, s_cedilla:ŗ]
+  T                          ( 17): 't'   [states: s_caron:ť, s_cedilla:ţ]
+  Y                          ( 16): 'z'   [states: s_acute:ź, s_caron:ž, s_dotabove:ż]
+  A                          (  0): 'a'   [states: s_acute:á, s_diaeresis:ä, s_degree:å, s_circumflex:â, s_breve:ă, s_ogonek:ą, s_grave:à]
+  S                          (  1): 's'   [states: s_acute:ś, s_caron:š, s_cedilla:ş]
+  D                          (  2): 'd'   [states: s_caron:ď]
+  F                          (  3): 'f'
+  G                          (  5): 'g'   [states: s_breve:ğ, s_cedilla:ģ]
+  H                          (  4): 'h'
+  J                          ( 38): 'j'
+  K                          ( 40): 'k'   [states: s_cedilla:ķ]
+  L                          ( 37): 'l'   [states: s_acute:ĺ, s_caron:ľ, s_cedilla:ļ]
+  semicolon (;:)             ( 41): 'ů'
+  quote ('")                 ( 39): '§'
+  Z                          (  6): 'y'   [states: s_acute:ý, s_diaeresis:ÿ]
+  X                          (  7): 'x'
+  C                          (  8): 'c'   [states: s_acute:ć, s_caron:č, s_cedilla:ç]
+  V                          (  9): 'v'
+  B                          ( 11): 'b'
+  N                          ( 45): 'n'   [states: s_acute:ń, s_caron:ň, s_cedilla:ņ]
+  M                          ( 46): 'm'
+  comma (,<)                 ( 43): ','
+  period (.>)                ( 47): '.'
+  slash (/?)                 ( 44): '-'
+  backslash (\|)             ( 42): "<action 'dead_s_diaeresis' (dead)>"   [DEAD -> state s_diaeresis]
+  U                          ( 32): 'u'   [states: s_acute:ú, s_diaeresis:ü, s_degree:ů, s_circumflex:û, s_ogonek:ų, s_grave:ù, s_doubleacute:ű]
+  leftBracket ([)            ( 33): 'ú'
+  O                          ( 31): 'o'   [states: s_acute:ó, s_diaeresis:ö, s_circumflex:ô, s_grave:ò, s_doubleacute:ő]
+  I                          ( 34): 'i'   [states: s_acute:í, s_diaeresis:ï, s_circumflex:î, s_ogonek:į, s_grave:ì, s_dotabove:ı]
+  P                          ( 35): 'p'
+  rightBracket (])           ( 30): ')'
+  space                      ( 49): ' '   [states: s_acute:´, s_diaeresis:¨, s_degree:°, s_caron:ˇ, s_circumflex:^, s_breve:˘, s_ogonek:˛, s_grave:`, s_dotabove:·, s_doubleacute:˝, s_cedilla:¸]
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+  [other code 65]                 : ','
+  [other code 67]                 : '*'
+  [other code 69]                 : '+'
+  [other code 75]                 : '/'
+  [other code 76]                 : '\r'
+  [other code 78]                 : '-'
+  [other code 81]                 : '='
+  [other code 82]                 : '0'
+  [other code 83]                 : '1'
+  [other code 84]                 : '2'
+  [other code 85]                 : '3'
+  [other code 86]                 : '4'
+  [other code 87]                 : '5'
+  [other code 88]                 : '6'
+  [other code 89]                 : '7'
+  [other code 91]                 : '8'
+  [other code 92]                 : '9'
+
+=== keyMap index 1 ===
+  ISO § (next to LShift)     ( 10): '|'
+  grave/tilde (left of 1)    ( 50): "<action 'dead_s_degree' (dead)>"   [DEAD -> state s_degree]
+  1                          ( 18): '1'
+  2                          ( 19): '2'
+  3                          ( 20): '3'
+  4                          ( 21): '4'
+  5                          ( 23): '5'
+  6                          ( 22): '6'
+  7                          ( 26): '7'
+  8                          ( 28): '8'
+  9                          ( 25): '9'
+  0                          ( 29): '0'
+  minus (-_)                 ( 27): '%'
+  equal (=+)                 ( 24): "<action 'dead_s_caron' (dead)>"   [DEAD -> state s_caron]
+  Q                          ( 12): 'Q'
+  W                          ( 13): 'W'
+  E                          ( 14): 'E'   [states: s_acute:É, s_diaeresis:Ë, s_caron:Ě, s_circumflex:Ê, s_ogonek:Ę, s_grave:È, s_dotabove:Ė]
+  R                          ( 15): 'R'   [states: s_acute:Ŕ, s_caron:Ř, s_cedilla:Ŗ]
+  T                          ( 17): 'T'   [states: s_caron:Ť, s_cedilla:Ţ]
+  Y                          ( 16): 'Z'   [states: s_acute:Ź, s_caron:Ž, s_dotabove:Ż]
+  A                          (  0): 'A'   [states: s_acute:Á, s_diaeresis:Ä, s_degree:Å, s_circumflex:Â, s_breve:Ă, s_ogonek:Ą, s_grave:À]
+  S                          (  1): 'S'   [states: s_acute:Ś, s_caron:Š, s_cedilla:Ş]
+  D                          (  2): 'D'   [states: s_caron:Ď]
+  F                          (  3): 'F'
+  G                          (  5): 'G'   [states: s_breve:Ğ, s_cedilla:Ģ]
+  H                          (  4): 'H'
+  J                          ( 38): 'J'
+  K                          ( 40): 'K'   [states: s_cedilla:Ķ]
+  L                          ( 37): 'L'   [states: s_acute:Ĺ, s_caron:Ľ, s_cedilla:Ļ]
+  semicolon (;:)             ( 41): '"'
+  quote ('")                 ( 39): '!'
+  Z                          (  6): 'Y'   [states: s_acute:Ý, s_diaeresis:Ÿ]
+  X                          (  7): 'X'
+  C                          (  8): 'C'   [states: s_acute:Ć, s_caron:Č, s_cedilla:Ç]
+  V                          (  9): 'V'
+  B                          ( 11): 'B'
+  N                          ( 45): 'N'   [states: s_acute:Ń, s_caron:Ň, s_cedilla:Ņ]
+  M                          ( 46): 'M'
+  comma (,<)                 ( 43): '?'
+  period (.>)                ( 47): ':'
+  slash (/?)                 ( 44): '_'
+  backslash (\|)             ( 42): "'"
+  U                          ( 32): 'U'   [states: s_acute:Ú, s_diaeresis:Ü, s_degree:Ů, s_circumflex:Û, s_ogonek:Ų, s_grave:Ù, s_doubleacute:Ű]
+  leftBracket ([)            ( 33): '/'
+  O                          ( 31): 'O'   [states: s_acute:Ó, s_diaeresis:Ö, s_circumflex:Ô, s_grave:Ò, s_doubleacute:Ő]
+  I                          ( 34): 'I'   [states: s_acute:Í, s_diaeresis:Ï, s_circumflex:Î, s_ogonek:Į, s_grave:Ì, s_dotabove:İ]
+  P                          ( 35): 'P'
+  rightBracket (])           ( 30): '('
+  space                      ( 49): ' '   [states: s_acute:´, s_diaeresis:¨, s_degree:°, s_caron:ˇ, s_circumflex:^, s_breve:˘, s_ogonek:˛, s_grave:`, s_dotabove:·, s_doubleacute:˝, s_cedilla:¸]
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+  [other code 65]                 : ','
+  [other code 67]                 : '*'
+  [other code 69]                 : '+'
+  [other code 75]                 : '/'
+  [other code 76]                 : '\r'
+  [other code 78]                 : '-'
+  [other code 81]                 : '='
+  [other code 82]                 : '0'
+  [other code 83]                 : '1'
+  [other code 84]                 : '2'
+  [other code 85]                 : '3'
+  [other code 86]                 : '4'
+  [other code 87]                 : '5'
+  [other code 88]                 : '6'
+  [other code 89]                 : '7'
+  [other code 91]                 : '8'
+  [other code 92]                 : '9'
+
+=== keyMap index 2 ===
+  1                          ( 18): '~'
+  2                          ( 19): "<action 'dead_s_caron' (dead)>"   [DEAD -> state s_caron]
+  3                          ( 20): "<action 'dead_s_circumflex' (dead)>"   [DEAD -> state s_circumflex]
+  4                          ( 21): "<action 'dead_s_breve' (dead)>"   [DEAD -> state s_breve]
+  5                          ( 23): "<action 'dead_s_degree' (dead)>"   [DEAD -> state s_degree]
+  6                          ( 22): "<action 'dead_s_ogonek' (dead)>"   [DEAD -> state s_ogonek]
+  7                          ( 26): "<action 'dead_s_grave' (dead)>"   [DEAD -> state s_grave]
+  8                          ( 28): "<action 'dead_s_dotabove' (dead)>"   [DEAD -> state s_dotabove]
+  9                          ( 25): "<action 'dead_s_acute' (dead)>"   [DEAD -> state s_acute]
+  0                          ( 29): "<action 'dead_s_doubleacute' (dead)>"   [DEAD -> state s_doubleacute]
+  minus (-_)                 ( 27): "<action 'dead_s_diaeresis' (dead)>"   [DEAD -> state s_diaeresis]
+  equal (=+)                 ( 24): "<action 'dead_s_cedilla' (dead)>"   [DEAD -> state s_cedilla]
+  Q                          ( 12): '\\'
+  W                          ( 13): '|'
+  E                          ( 14): '€'
+  S                          (  1): 'đ'
+  D                          (  2): 'Đ'
+  F                          (  3): '['
+  G                          (  5): ']'
+  K                          ( 40): 'ł'
+  L                          ( 37): 'Ł'
+  semicolon (;:)             ( 41): '$'
+  quote ('")                 ( 39): 'ß'
+  X                          (  7): '#'
+  C                          (  8): '&'
+  V                          (  9): '@'
+  B                          ( 11): '{'
+  N                          ( 45): '}'
+  comma (,<)                 ( 43): '<'
+  period (.>)                ( 47): '>'
+  slash (/?)                 ( 44): '*'
+  backslash (\|)             ( 42): '¤'
+  leftBracket ([)            ( 33): '÷'
+  rightBracket (])           ( 30): '×'
+  space                      ( 49): '\xa0'   [states: s_acute:´, s_diaeresis:¨, s_degree:°, s_caron:ˇ, s_circumflex:^, s_breve:˘, s_ogonek:˛, s_grave:`, s_dotabove:·, s_doubleacute:˝, s_cedilla:¸]
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+
+=== keyMap index 3 ===
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+
+=== keyMap index 4 ===
+  ISO § (next to LShift)     ( 10): '\\'
+  grave/tilde (left of 1)    ( 50): ';'
+  1                          ( 18): '+'
+  2                          ( 19): 'Ě'
+  3                          ( 20): 'Š'
+  4                          ( 21): 'Č'
+  5                          ( 23): 'Ř'
+  6                          ( 22): 'Ž'
+  7                          ( 26): 'Ý'
+  8                          ( 28): 'Á'
+  9                          ( 25): 'Í'
+  0                          ( 29): 'É'
+  minus (-_)                 ( 27): '='
+  equal (=+)                 ( 24): "<action 'dead_s_acute' (dead)>"   [DEAD -> state s_acute]
+  Q                          ( 12): 'Q'
+  W                          ( 13): 'W'
+  E                          ( 14): 'E'   [states: s_acute:É, s_diaeresis:Ë, s_caron:Ě, s_circumflex:Ê, s_ogonek:Ę, s_grave:È, s_dotabove:Ė]
+  R                          ( 15): 'R'   [states: s_acute:Ŕ, s_caron:Ř, s_cedilla:Ŗ]
+  T                          ( 17): 'T'   [states: s_caron:Ť, s_cedilla:Ţ]
+  Y                          ( 16): 'Z'   [states: s_acute:Ź, s_caron:Ž, s_dotabove:Ż]
+  A                          (  0): 'A'   [states: s_acute:Á, s_diaeresis:Ä, s_degree:Å, s_circumflex:Â, s_breve:Ă, s_ogonek:Ą, s_grave:À]
+  S                          (  1): 'S'   [states: s_acute:Ś, s_caron:Š, s_cedilla:Ş]
+  D                          (  2): 'D'   [states: s_caron:Ď]
+  F                          (  3): 'F'
+  G                          (  5): 'G'   [states: s_breve:Ğ, s_cedilla:Ģ]
+  H                          (  4): 'H'
+  J                          ( 38): 'J'
+  K                          ( 40): 'K'   [states: s_cedilla:Ķ]
+  L                          ( 37): 'L'   [states: s_acute:Ĺ, s_caron:Ľ, s_cedilla:Ļ]
+  semicolon (;:)             ( 41): 'Ů'
+  quote ('")                 ( 39): '§'
+  Z                          (  6): 'Y'   [states: s_acute:Ý, s_diaeresis:Ÿ]
+  X                          (  7): 'X'
+  C                          (  8): 'C'   [states: s_acute:Ć, s_caron:Č, s_cedilla:Ç]
+  V                          (  9): 'V'
+  B                          ( 11): 'B'
+  N                          ( 45): 'N'   [states: s_acute:Ń, s_caron:Ň, s_cedilla:Ņ]
+  M                          ( 46): 'M'
+  comma (,<)                 ( 43): ','
+  period (.>)                ( 47): '.'
+  slash (/?)                 ( 44): '-'
+  backslash (\|)             ( 42): "<action 'dead_s_diaeresis' (dead)>"   [DEAD -> state s_diaeresis]
+  U                          ( 32): 'U'   [states: s_acute:Ú, s_diaeresis:Ü, s_degree:Ů, s_circumflex:Û, s_ogonek:Ų, s_grave:Ù, s_doubleacute:Ű]
+  leftBracket ([)            ( 33): 'Ú'
+  O                          ( 31): 'O'   [states: s_acute:Ó, s_diaeresis:Ö, s_circumflex:Ô, s_grave:Ò, s_doubleacute:Ő]
+  I                          ( 34): 'I'   [states: s_acute:Í, s_diaeresis:Ï, s_circumflex:Î, s_ogonek:Į, s_grave:Ì, s_dotabove:İ]
+  P                          ( 35): 'P'
+  rightBracket (])           ( 30): ')'
+  space                      ( 49): ' '   [states: s_acute:´, s_diaeresis:¨, s_degree:°, s_caron:ˇ, s_circumflex:^, s_breve:˘, s_ogonek:˛, s_grave:`, s_dotabove:·, s_doubleacute:˝, s_cedilla:¸]
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+  [other code 65]                 : ','
+  [other code 67]                 : '*'
+  [other code 69]                 : '+'
+  [other code 75]                 : '/'
+  [other code 76]                 : '\r'
+  [other code 78]                 : '-'
+  [other code 81]                 : '='
+  [other code 82]                 : '0'
+  [other code 83]                 : '1'
+  [other code 84]                 : '2'
+  [other code 85]                 : '3'
+  [other code 86]                 : '4'
+  [other code 87]                 : '5'
+  [other code 88]                 : '6'
+  [other code 89]                 : '7'
+  [other code 91]                 : '8'
+  [other code 92]                 : '9'
+
+=== keyMap index 5 ===
+  ISO § (next to LShift)     ( 10): '|'
+  grave/tilde (left of 1)    ( 50): "<action 'dead_s_degree' (dead)>"   [DEAD -> state s_degree]
+  1                          ( 18): '1'
+  2                          ( 19): '2'
+  3                          ( 20): '3'
+  4                          ( 21): '4'
+  5                          ( 23): '5'
+  6                          ( 22): '6'
+  7                          ( 26): '7'
+  8                          ( 28): '8'
+  9                          ( 25): '9'
+  0                          ( 29): '0'
+  minus (-_)                 ( 27): '%'
+  equal (=+)                 ( 24): "<action 'dead_s_caron' (dead)>"   [DEAD -> state s_caron]
+  Q                          ( 12): 'q'
+  W                          ( 13): 'w'
+  E                          ( 14): 'e'   [states: s_acute:é, s_diaeresis:ë, s_caron:ě, s_circumflex:ê, s_ogonek:ę, s_grave:è, s_dotabove:ė]
+  R                          ( 15): 'r'   [states: s_acute:ŕ, s_caron:ř, s_cedilla:ŗ]
+  T                          ( 17): 't'   [states: s_caron:ť, s_cedilla:ţ]
+  Y                          ( 16): 'z'   [states: s_acute:ź, s_caron:ž, s_dotabove:ż]
+  A                          (  0): 'a'   [states: s_acute:á, s_diaeresis:ä, s_degree:å, s_circumflex:â, s_breve:ă, s_ogonek:ą, s_grave:à]
+  S                          (  1): 's'   [states: s_acute:ś, s_caron:š, s_cedilla:ş]
+  D                          (  2): 'd'   [states: s_caron:ď]
+  F                          (  3): 'f'
+  G                          (  5): 'g'   [states: s_breve:ğ, s_cedilla:ģ]
+  H                          (  4): 'h'
+  J                          ( 38): 'j'
+  K                          ( 40): 'k'   [states: s_cedilla:ķ]
+  L                          ( 37): 'l'   [states: s_acute:ĺ, s_caron:ľ, s_cedilla:ļ]
+  semicolon (;:)             ( 41): '"'
+  quote ('")                 ( 39): '!'
+  Z                          (  6): 'y'   [states: s_acute:ý, s_diaeresis:ÿ]
+  X                          (  7): 'x'
+  C                          (  8): 'c'   [states: s_acute:ć, s_caron:č, s_cedilla:ç]
+  V                          (  9): 'v'
+  B                          ( 11): 'b'
+  N                          ( 45): 'n'   [states: s_acute:ń, s_caron:ň, s_cedilla:ņ]
+  M                          ( 46): 'm'
+  comma (,<)                 ( 43): '?'
+  period (.>)                ( 47): ':'
+  slash (/?)                 ( 44): '_'
+  backslash (\|)             ( 42): "'"
+  U                          ( 32): 'u'   [states: s_acute:ú, s_diaeresis:ü, s_degree:ů, s_circumflex:û, s_ogonek:ų, s_grave:ù, s_doubleacute:ű]
+  leftBracket ([)            ( 33): '/'
+  O                          ( 31): 'o'   [states: s_acute:ó, s_diaeresis:ö, s_circumflex:ô, s_grave:ò, s_doubleacute:ő]
+  I                          ( 34): 'i'   [states: s_acute:í, s_diaeresis:ï, s_circumflex:î, s_ogonek:į, s_grave:ì, s_dotabove:ı]
+  P                          ( 35): 'p'
+  rightBracket (])           ( 30): '('
+  space                      ( 49): ' '   [states: s_acute:´, s_diaeresis:¨, s_degree:°, s_caron:ˇ, s_circumflex:^, s_breve:˘, s_ogonek:˛, s_grave:`, s_dotabove:·, s_doubleacute:˝, s_cedilla:¸]
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+  [other code 65]                 : ','
+  [other code 67]                 : '*'
+  [other code 69]                 : '+'
+  [other code 75]                 : '/'
+  [other code 76]                 : '\r'
+  [other code 78]                 : '-'
+  [other code 81]                 : '='
+  [other code 82]                 : '0'
+  [other code 83]                 : '1'
+  [other code 84]                 : '2'
+  [other code 85]                 : '3'
+  [other code 86]                 : '4'
+  [other code 87]                 : '5'
+  [other code 88]                 : '6'
+  [other code 89]                 : '7'
+  [other code 91]                 : '8'
+  [other code 92]                 : '9'
+
+=== keyMap index 6 ===
+  1                          ( 18): '~'
+  2                          ( 19): "<action 'dead_s_caron' (dead)>"   [DEAD -> state s_caron]
+  3                          ( 20): "<action 'dead_s_circumflex' (dead)>"   [DEAD -> state s_circumflex]
+  4                          ( 21): "<action 'dead_s_breve' (dead)>"   [DEAD -> state s_breve]
+  5                          ( 23): "<action 'dead_s_degree' (dead)>"   [DEAD -> state s_degree]
+  6                          ( 22): "<action 'dead_s_ogonek' (dead)>"   [DEAD -> state s_ogonek]
+  7                          ( 26): "<action 'dead_s_grave' (dead)>"   [DEAD -> state s_grave]
+  8                          ( 28): "<action 'dead_s_dotabove' (dead)>"   [DEAD -> state s_dotabove]
+  9                          ( 25): "<action 'dead_s_acute' (dead)>"   [DEAD -> state s_acute]
+  0                          ( 29): "<action 'dead_s_doubleacute' (dead)>"   [DEAD -> state s_doubleacute]
+  minus (-_)                 ( 27): "<action 'dead_s_diaeresis' (dead)>"   [DEAD -> state s_diaeresis]
+  equal (=+)                 ( 24): "<action 'dead_s_cedilla' (dead)>"   [DEAD -> state s_cedilla]
+  Q                          ( 12): '\\'
+  W                          ( 13): '|'
+  E                          ( 14): '€'
+  S                          (  1): 'đ'
+  D                          (  2): 'Đ'
+  F                          (  3): '['
+  G                          (  5): ']'
+  K                          ( 40): 'ł'
+  L                          ( 37): 'Ł'
+  semicolon (;:)             ( 41): '$'
+  quote ('")                 ( 39): 'ß'
+  X                          (  7): '#'
+  C                          (  8): '&'
+  V                          (  9): '@'
+  B                          ( 11): '{'
+  N                          ( 45): '}'
+  comma (,<)                 ( 43): '<'
+  period (.>)                ( 47): '>'
+  slash (/?)                 ( 44): '*'
+  backslash (\|)             ( 42): '¤'
+  leftBracket ([)            ( 33): '÷'
+  rightBracket (])           ( 30): '×'
+  space                      ( 49): '\xa0'   [states: s_acute:´, s_diaeresis:¨, s_degree:°, s_caron:ˇ, s_circumflex:^, s_breve:˘, s_ogonek:˛, s_grave:`, s_dotabove:·, s_doubleacute:˝, s_cedilla:¸]
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+
+=== keyMap index 7 ===
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'

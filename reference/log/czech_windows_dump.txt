@@ -1,0 +1,577 @@
+file: /Library/Keyboard Layouts/czech_windows.keylayout
+name='Czech (Windows)' id=-21957 group=126 maxout=1
+
+modifier maps:
+  modifierMap id=mods:
+    index 0: ['', 'anyControl']
+    index 1: ['anyShift']
+    index 2: ['anyOption anyControl? anyShift? caps?']
+    index 3: ['caps']
+    index 4: ['caps anyShift']
+    index 5: ['command anyShift? anyOption? anyControl? caps?']
+
+mapSets: ['mapset'] — showing 'mapset'
+
+=== keyMap index 0 ===
+  ISO § (next to LShift)     ( 10): ';'
+  grave/tilde (left of 1)    ( 50): '\\'
+  1                          ( 17): 't'   [states: s_caron:ť, s_cedilla:ţ]
+  2                          ( 18): '+'
+  3                          ( 19): 'ě'
+  4                          ( 20): 'š'
+  5                          ( 22): 'ž'
+  6                          ( 21): 'č'
+  7                          ( 26): 'ý'
+  8                          ( 28): 'á'
+  9                          ( 25): 'í'
+  0                          ( 29): 'é'
+  minus (-_)                 ( 27): '='
+  equal (=+)                 ( 24): "<action 'd_acute' (dead)>"   [DEAD -> state s_acute]
+  Q                          ( 11): 'b'
+  W                          ( 12): 'q'
+  E                          ( 13): 'w'
+  R                          ( 14): 'e'   [states: s_acute:é, s_grave:è, s_circumflex:ê, s_caron:ě, s_ogonek:ę, s_dotabove:ė, s_diaeresis:ë]
+  T                          ( 16): 'z'   [states: s_acute:ź, s_caron:ž, s_dotabove:ż]
+  Y                          ( 15): 'r'   [states: s_acute:ŕ, s_caron:ř, s_cedilla:ŗ]
+  A                          (  0): 'a'   [states: s_acute:á, s_grave:à, s_circumflex:â, s_ring:å, s_breve:ă, s_ogonek:ą, s_diaeresis:ä]
+  S                          (  1): 's'   [states: s_acute:ś, s_caron:š, s_cedilla:ş]
+  D                          (  2): 'd'   [states: s_caron:ď]
+  F                          (  3): 'f'
+  G                          (  5): 'g'   [states: s_breve:ğ, s_cedilla:ģ]
+  H                          (  4): 'h'
+  J                          ( 38): 'j'
+  K                          ( 40): 'k'   [states: s_cedilla:ķ]
+  L                          ( 37): 'l'   [states: s_acute:ĺ, s_caron:ľ, s_cedilla:ļ]
+  semicolon (;:)             ( 39): '§'
+  quote ('")                 ( 41): 'ů'
+  Z                          (  6): 'y'   [states: s_acute:ý, s_diaeresis:ÿ]
+  X                          (  7): 'x'
+  C                          (  8): 'c'   [states: s_acute:ć, s_caron:č, s_cedilla:ç]
+  V                          (  9): 'v'
+  N                          ( 45): 'n'   [states: s_acute:ń, s_caron:ň, s_cedilla:ņ]
+  M                          ( 46): 'm'
+  comma (,<)                 ( 43): ','
+  period (.>)                ( 47): '.'
+  slash (/?)                 ( 44): '-'
+  backslash (\|)             ( 42): "<action 'd_diaeresis' (dead)>"   [DEAD -> state s_diaeresis]
+  space                      ( 49): ' '   [states: s_acute:´, s_grave:`, s_caron:ˇ, s_circumflex:^, s_breve:˘, s_ring:°, s_ogonek:˛, s_dotabove:˙, s_doubleacute:˝, s_diaeresis:¨, s_cedilla:¸]
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 23]                 : 'ř'
+  [other code 30]                 : ')'
+  [other code 31]                 : 'o'   [states: s_acute:ó, s_grave:ò, s_circumflex:ô, s_doubleacute:ő, s_diaeresis:ö]
+  [other code 32]                 : 'u'   [states: s_acute:ú, s_grave:ù, s_circumflex:û, s_ring:ů, s_ogonek:ų, s_doubleacute:ű, s_diaeresis:ü]
+  [other code 33]                 : 'ú'
+  [other code 34]                 : 'i'   [states: s_acute:í, s_grave:ì, s_circumflex:î, s_ogonek:į, s_dotabove:ı, s_diaeresis:ï]
+  [other code 35]                 : 'p'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+  [other code 65]                 : ','
+  [other code 67]                 : '*'
+  [other code 69]                 : '+'
+  [other code 71]                 : 'CTRL-U+001B'
+  [other code 75]                 : '/'
+  [other code 76]                 : 'CTRL-U+0003'
+  [other code 78]                 : '-'
+  [other code 81]                 : '='
+  [other code 82]                 : '0'
+  [other code 83]                 : '1'
+  [other code 84]                 : '2'
+  [other code 85]                 : '3'
+  [other code 86]                 : '4'
+  [other code 87]                 : '5'
+  [other code 88]                 : '6'
+  [other code 89]                 : '7'
+  [other code 91]                 : '8'
+  [other code 92]                 : '9'
+  [other code 96]                 : 'CTRL-U+0010'
+  [other code 97]                 : 'CTRL-U+0010'
+  [other code 98]                 : 'CTRL-U+0010'
+  [other code 99]                 : 'CTRL-U+0010'
+  [other code 100]                : 'CTRL-U+0010'
+  [other code 101]                : 'CTRL-U+0010'
+  [other code 103]                : 'CTRL-U+0010'
+  [other code 109]                : 'CTRL-U+0010'
+  [other code 111]                : 'CTRL-U+0010'
+  [other code 115]                : 'CTRL-U+0001'
+  [other code 116]                : 'CTRL-U+000B'
+  [other code 117]                : '\x7f'
+  [other code 118]                : 'CTRL-U+0010'
+  [other code 119]                : 'CTRL-U+0004'
+  [other code 120]                : 'CTRL-U+0010'
+  [other code 121]                : 'CTRL-U+000C'
+  [other code 122]                : 'CTRL-U+0010'
+  [other code 123]                : 'CTRL-U+001C'
+  [other code 124]                : 'CTRL-U+001D'
+  [other code 125]                : 'CTRL-U+001F'
+  [other code 126]                : 'CTRL-U+001E'
+
+=== keyMap index 1 ===
+  ISO § (next to LShift)     ( 10): "<action 'd_ring' (dead)>"   [DEAD -> state s_ring]
+  grave/tilde (left of 1)    ( 50): '|'
+  1                          ( 17): 'T'   [states: s_caron:Ť, s_cedilla:Ţ]
+  2                          ( 18): '1'
+  3                          ( 19): '2'
+  4                          ( 20): '3'
+  5                          ( 22): '6'
+  6                          ( 21): '4'
+  7                          ( 26): '7'
+  8                          ( 28): '8'
+  9                          ( 25): '9'
+  0                          ( 29): '0'
+  minus (-_)                 ( 27): '%'
+  equal (=+)                 ( 24): "<action 'd_caron' (dead)>"   [DEAD -> state s_caron]
+  Q                          ( 11): 'B'
+  W                          ( 12): 'Q'
+  E                          ( 13): 'W'
+  R                          ( 14): 'E'   [states: s_acute:É, s_grave:È, s_circumflex:Ê, s_caron:Ě, s_ogonek:Ę, s_dotabove:Ė, s_diaeresis:Ë]
+  T                          ( 16): 'Z'   [states: s_acute:Ź, s_caron:Ž, s_dotabove:Ż]
+  Y                          ( 15): 'R'   [states: s_acute:Ŕ, s_caron:Ř, s_cedilla:Ŗ]
+  A                          (  0): 'A'   [states: s_acute:Á, s_grave:À, s_circumflex:Â, s_ring:Å, s_breve:Ă, s_ogonek:Ą, s_diaeresis:Ä]
+  S                          (  1): 'S'   [states: s_acute:Ś, s_caron:Š, s_cedilla:Ş]
+  D                          (  2): 'D'   [states: s_caron:Ď]
+  F                          (  3): 'F'
+  G                          (  5): 'G'   [states: s_breve:Ğ, s_cedilla:Ģ]
+  H                          (  4): 'H'
+  J                          ( 38): 'J'
+  K                          ( 40): 'K'   [states: s_cedilla:Ķ]
+  L                          ( 37): 'L'   [states: s_acute:Ĺ, s_caron:Ľ, s_cedilla:Ļ]
+  semicolon (;:)             ( 39): '!'
+  quote ('")                 ( 41): '"'
+  Z                          (  6): 'Y'   [states: s_acute:Ý, s_diaeresis:Ÿ]
+  X                          (  7): 'X'
+  C                          (  8): 'C'   [states: s_acute:Ć, s_caron:Č, s_cedilla:Ç]
+  V                          (  9): 'V'
+  N                          ( 45): 'N'   [states: s_acute:Ń, s_caron:Ň, s_cedilla:Ņ]
+  M                          ( 46): 'M'
+  comma (,<)                 ( 43): '?'
+  period (.>)                ( 47): ':'
+  slash (/?)                 ( 44): '_'
+  backslash (\|)             ( 42): "'"
+  space                      ( 49): ' '   [states: s_acute:´, s_grave:`, s_caron:ˇ, s_circumflex:^, s_breve:˘, s_ring:°, s_ogonek:˛, s_dotabove:˙, s_doubleacute:˝, s_diaeresis:¨, s_cedilla:¸]
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 23]                 : '5'
+  [other code 30]                 : '('
+  [other code 31]                 : 'O'   [states: s_acute:Ó, s_grave:Ò, s_circumflex:Ô, s_doubleacute:Ő, s_diaeresis:Ö]
+  [other code 32]                 : 'U'   [states: s_acute:Ú, s_grave:Ù, s_circumflex:Û, s_ring:Ů, s_ogonek:Ų, s_doubleacute:Ű, s_diaeresis:Ü]
+  [other code 33]                 : '/'
+  [other code 34]                 : 'I'   [states: s_acute:Í, s_grave:Ì, s_circumflex:Î, s_ogonek:Į, s_dotabove:İ, s_diaeresis:Ï]
+  [other code 35]                 : 'P'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+  [other code 65]                 : ','
+  [other code 67]                 : '*'
+  [other code 69]                 : '+'
+  [other code 71]                 : 'CTRL-U+001B'
+  [other code 75]                 : '/'
+  [other code 76]                 : 'CTRL-U+0003'
+  [other code 78]                 : '-'
+  [other code 81]                 : '='
+  [other code 82]                 : '0'
+  [other code 83]                 : '1'
+  [other code 84]                 : '2'
+  [other code 85]                 : '3'
+  [other code 86]                 : '4'
+  [other code 87]                 : '5'
+  [other code 88]                 : '6'
+  [other code 89]                 : '7'
+  [other code 91]                 : '8'
+  [other code 92]                 : '9'
+  [other code 96]                 : 'CTRL-U+0010'
+  [other code 97]                 : 'CTRL-U+0010'
+  [other code 98]                 : 'CTRL-U+0010'
+  [other code 99]                 : 'CTRL-U+0010'
+  [other code 100]                : 'CTRL-U+0010'
+  [other code 101]                : 'CTRL-U+0010'
+  [other code 103]                : 'CTRL-U+0010'
+  [other code 109]                : 'CTRL-U+0010'
+  [other code 111]                : 'CTRL-U+0010'
+  [other code 115]                : 'CTRL-U+0001'
+  [other code 116]                : 'CTRL-U+000B'
+  [other code 117]                : '\x7f'
+  [other code 118]                : 'CTRL-U+0010'
+  [other code 119]                : 'CTRL-U+0004'
+  [other code 120]                : 'CTRL-U+0010'
+  [other code 121]                : 'CTRL-U+000C'
+  [other code 122]                : 'CTRL-U+0010'
+  [other code 123]                : 'CTRL-U+001C'
+  [other code 124]                : 'CTRL-U+001D'
+  [other code 125]                : 'CTRL-U+001F'
+  [other code 126]                : 'CTRL-U+001E'
+
+=== keyMap index 2 ===
+  ISO § (next to LShift)     ( 10): ';'
+  grave/tilde (left of 1)    ( 50): '\\'
+  1                          ( 17): 't'
+  2                          ( 18): '~'
+  3                          ( 19): "<action 'd_caron' (dead)>"   [DEAD -> state s_caron]
+  4                          ( 20): "<action 'd_circumflex' (dead)>"   [DEAD -> state s_circumflex]
+  5                          ( 22): "<action 'd_ogonek' (dead)>"   [DEAD -> state s_ogonek]
+  6                          ( 21): "<action 'd_breve' (dead)>"   [DEAD -> state s_breve]
+  7                          ( 26): "<action 'd_grave' (dead)>"   [DEAD -> state s_grave]
+  8                          ( 28): "<action 'd_dotabove' (dead)>"   [DEAD -> state s_dotabove]
+  9                          ( 25): "<action 'd_acute' (dead)>"   [DEAD -> state s_acute]
+  0                          ( 29): "<action 'd_doubleacute' (dead)>"   [DEAD -> state s_doubleacute]
+  minus (-_)                 ( 27): "<action 'd_diaeresis' (dead)>"   [DEAD -> state s_diaeresis]
+  equal (=+)                 ( 24): "<action 'd_cedilla' (dead)>"   [DEAD -> state s_cedilla]
+  Q                          ( 11): '{'
+  W                          ( 12): '\\'
+  E                          ( 13): '|'
+  R                          ( 14): '€'
+  T                          ( 16): 'z'
+  Y                          ( 15): 'r'
+  A                          (  0): 'a'
+  S                          (  1): 'đ'
+  D                          (  2): 'Đ'
+  F                          (  3): '['
+  G                          (  5): ']'
+  H                          (  4): 'h'
+  J                          ( 38): 'j'
+  K                          ( 40): 'ł'
+  L                          ( 37): 'Ł'
+  semicolon (;:)             ( 39): 'ß'
+  quote ('")                 ( 41): '$'
+  Z                          (  6): 'y'
+  X                          (  7): '#'
+  C                          (  8): '&'
+  V                          (  9): '@'
+  N                          ( 45): '}'
+  M                          ( 46): 'm'
+  comma (,<)                 ( 43): '<'
+  period (.>)                ( 47): '>'
+  slash (/?)                 ( 44): '*'
+  backslash (\|)             ( 42): '¤'
+  space                      ( 49): ' '   [states: s_acute:´, s_grave:`, s_caron:ˇ, s_circumflex:^, s_breve:˘, s_ring:°, s_ogonek:˛, s_dotabove:˙, s_doubleacute:˝, s_diaeresis:¨, s_cedilla:¸]
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 23]                 : "<action 'd_ring' (dead)>"   [DEAD -> state s_ring]
+  [other code 30]                 : '×'
+  [other code 31]                 : 'o'
+  [other code 32]                 : 'u'
+  [other code 33]                 : '÷'
+  [other code 34]                 : 'i'
+  [other code 35]                 : 'p'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+  [other code 65]                 : ','
+  [other code 67]                 : '*'
+  [other code 69]                 : '+'
+  [other code 71]                 : 'CTRL-U+001B'
+  [other code 75]                 : '/'
+  [other code 76]                 : 'CTRL-U+0003'
+  [other code 78]                 : '-'
+  [other code 81]                 : '='
+  [other code 82]                 : '0'
+  [other code 83]                 : '1'
+  [other code 84]                 : '2'
+  [other code 85]                 : '3'
+  [other code 86]                 : '4'
+  [other code 87]                 : '5'
+  [other code 88]                 : '6'
+  [other code 89]                 : '7'
+  [other code 91]                 : '8'
+  [other code 92]                 : '9'
+  [other code 96]                 : 'CTRL-U+0010'
+  [other code 97]                 : 'CTRL-U+0010'
+  [other code 98]                 : 'CTRL-U+0010'
+  [other code 99]                 : 'CTRL-U+0010'
+  [other code 100]                : 'CTRL-U+0010'
+  [other code 101]                : 'CTRL-U+0010'
+  [other code 103]                : 'CTRL-U+0010'
+  [other code 109]                : 'CTRL-U+0010'
+  [other code 111]                : 'CTRL-U+0010'
+  [other code 115]                : 'CTRL-U+0001'
+  [other code 116]                : 'CTRL-U+000B'
+  [other code 117]                : '\x7f'
+  [other code 118]                : 'CTRL-U+0010'
+  [other code 119]                : 'CTRL-U+0004'
+  [other code 120]                : 'CTRL-U+0010'
+  [other code 121]                : 'CTRL-U+000C'
+  [other code 122]                : 'CTRL-U+0010'
+  [other code 123]                : 'CTRL-U+001C'
+  [other code 124]                : 'CTRL-U+001D'
+  [other code 125]                : 'CTRL-U+001F'
+  [other code 126]                : 'CTRL-U+001E'
+
+=== keyMap index 3 ===
+  ISO § (next to LShift)     ( 10): ';'
+  grave/tilde (left of 1)    ( 50): '\\'
+  1                          ( 17): 'T'   [states: s_caron:Ť, s_cedilla:Ţ]
+  2                          ( 18): '+'
+  3                          ( 19): 'Ě'
+  4                          ( 20): 'Š'
+  5                          ( 22): 'Ž'
+  6                          ( 21): 'Č'
+  7                          ( 26): 'Ý'
+  8                          ( 28): 'Á'
+  9                          ( 25): 'Í'
+  0                          ( 29): 'É'
+  minus (-_)                 ( 27): '='
+  equal (=+)                 ( 24): "<action 'd_acute' (dead)>"   [DEAD -> state s_acute]
+  Q                          ( 11): 'B'
+  W                          ( 12): 'Q'
+  E                          ( 13): 'W'
+  R                          ( 14): 'E'   [states: s_acute:É, s_grave:È, s_circumflex:Ê, s_caron:Ě, s_ogonek:Ę, s_dotabove:Ė, s_diaeresis:Ë]
+  T                          ( 16): 'Z'   [states: s_acute:Ź, s_caron:Ž, s_dotabove:Ż]
+  Y                          ( 15): 'R'   [states: s_acute:Ŕ, s_caron:Ř, s_cedilla:Ŗ]
+  A                          (  0): 'A'   [states: s_acute:Á, s_grave:À, s_circumflex:Â, s_ring:Å, s_breve:Ă, s_ogonek:Ą, s_diaeresis:Ä]
+  S                          (  1): 'S'   [states: s_acute:Ś, s_caron:Š, s_cedilla:Ş]
+  D                          (  2): 'D'   [states: s_caron:Ď]
+  F                          (  3): 'F'
+  G                          (  5): 'G'   [states: s_breve:Ğ, s_cedilla:Ģ]
+  H                          (  4): 'H'
+  J                          ( 38): 'J'
+  K                          ( 40): 'K'   [states: s_cedilla:Ķ]
+  L                          ( 37): 'L'   [states: s_acute:Ĺ, s_caron:Ľ, s_cedilla:Ļ]
+  semicolon (;:)             ( 39): '§'
+  quote ('")                 ( 41): 'Ů'
+  Z                          (  6): 'Y'   [states: s_acute:Ý, s_diaeresis:Ÿ]
+  X                          (  7): 'X'
+  C                          (  8): 'C'   [states: s_acute:Ć, s_caron:Č, s_cedilla:Ç]
+  V                          (  9): 'V'
+  N                          ( 45): 'N'   [states: s_acute:Ń, s_caron:Ň, s_cedilla:Ņ]
+  M                          ( 46): 'M'
+  comma (,<)                 ( 43): ','
+  period (.>)                ( 47): '.'
+  slash (/?)                 ( 44): '-'
+  backslash (\|)             ( 42): "<action 'd_diaeresis' (dead)>"   [DEAD -> state s_diaeresis]
+  space                      ( 49): ' '   [states: s_acute:´, s_grave:`, s_caron:ˇ, s_circumflex:^, s_breve:˘, s_ring:°, s_ogonek:˛, s_dotabove:˙, s_doubleacute:˝, s_diaeresis:¨, s_cedilla:¸]
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 23]                 : 'Ř'
+  [other code 30]                 : ')'
+  [other code 31]                 : 'O'   [states: s_acute:Ó, s_grave:Ò, s_circumflex:Ô, s_doubleacute:Ő, s_diaeresis:Ö]
+  [other code 32]                 : 'U'   [states: s_acute:Ú, s_grave:Ù, s_circumflex:Û, s_ring:Ů, s_ogonek:Ų, s_doubleacute:Ű, s_diaeresis:Ü]
+  [other code 33]                 : 'Ú'
+  [other code 34]                 : 'I'   [states: s_acute:Í, s_grave:Ì, s_circumflex:Î, s_ogonek:Į, s_dotabove:İ, s_diaeresis:Ï]
+  [other code 35]                 : 'P'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+  [other code 65]                 : ','
+  [other code 67]                 : '*'
+  [other code 69]                 : '+'
+  [other code 71]                 : 'CTRL-U+001B'
+  [other code 75]                 : '/'
+  [other code 76]                 : 'CTRL-U+0003'
+  [other code 78]                 : '-'
+  [other code 81]                 : '='
+  [other code 82]                 : '0'
+  [other code 83]                 : '1'
+  [other code 84]                 : '2'
+  [other code 85]                 : '3'
+  [other code 86]                 : '4'
+  [other code 87]                 : '5'
+  [other code 88]                 : '6'
+  [other code 89]                 : '7'
+  [other code 91]                 : '8'
+  [other code 92]                 : '9'
+  [other code 96]                 : 'CTRL-U+0010'
+  [other code 97]                 : 'CTRL-U+0010'
+  [other code 98]                 : 'CTRL-U+0010'
+  [other code 99]                 : 'CTRL-U+0010'
+  [other code 100]                : 'CTRL-U+0010'
+  [other code 101]                : 'CTRL-U+0010'
+  [other code 103]                : 'CTRL-U+0010'
+  [other code 109]                : 'CTRL-U+0010'
+  [other code 111]                : 'CTRL-U+0010'
+  [other code 115]                : 'CTRL-U+0001'
+  [other code 116]                : 'CTRL-U+000B'
+  [other code 117]                : '\x7f'
+  [other code 118]                : 'CTRL-U+0010'
+  [other code 119]                : 'CTRL-U+0004'
+  [other code 120]                : 'CTRL-U+0010'
+  [other code 121]                : 'CTRL-U+000C'
+  [other code 122]                : 'CTRL-U+0010'
+  [other code 123]                : 'CTRL-U+001C'
+  [other code 124]                : 'CTRL-U+001D'
+  [other code 125]                : 'CTRL-U+001F'
+  [other code 126]                : 'CTRL-U+001E'
+
+=== keyMap index 4 ===
+  ISO § (next to LShift)     ( 10): "<action 'd_ring' (dead)>"   [DEAD -> state s_ring]
+  grave/tilde (left of 1)    ( 50): '|'
+  1                          ( 17): 't'   [states: s_caron:ť, s_cedilla:ţ]
+  2                          ( 18): '1'
+  3                          ( 19): '2'
+  4                          ( 20): '3'
+  5                          ( 22): '6'
+  6                          ( 21): '4'
+  7                          ( 26): '7'
+  8                          ( 28): '8'
+  9                          ( 25): '9'
+  0                          ( 29): '0'
+  minus (-_)                 ( 27): '%'
+  equal (=+)                 ( 24): "<action 'd_caron' (dead)>"   [DEAD -> state s_caron]
+  Q                          ( 11): 'b'
+  W                          ( 12): 'q'
+  E                          ( 13): 'w'
+  R                          ( 14): 'e'   [states: s_acute:é, s_grave:è, s_circumflex:ê, s_caron:ě, s_ogonek:ę, s_dotabove:ė, s_diaeresis:ë]
+  T                          ( 16): 'z'   [states: s_acute:ź, s_caron:ž, s_dotabove:ż]
+  Y                          ( 15): 'r'   [states: s_acute:ŕ, s_caron:ř, s_cedilla:ŗ]
+  A                          (  0): 'a'   [states: s_acute:á, s_grave:à, s_circumflex:â, s_ring:å, s_breve:ă, s_ogonek:ą, s_diaeresis:ä]
+  S                          (  1): 's'   [states: s_acute:ś, s_caron:š, s_cedilla:ş]
+  D                          (  2): 'd'   [states: s_caron:ď]
+  F                          (  3): 'f'
+  G                          (  5): 'g'   [states: s_breve:ğ, s_cedilla:ģ]
+  H                          (  4): 'h'
+  J                          ( 38): 'j'
+  K                          ( 40): 'k'   [states: s_cedilla:ķ]
+  L                          ( 37): 'l'   [states: s_acute:ĺ, s_caron:ľ, s_cedilla:ļ]
+  semicolon (;:)             ( 39): '!'
+  quote ('")                 ( 41): '"'
+  Z                          (  6): 'y'   [states: s_acute:ý, s_diaeresis:ÿ]
+  X                          (  7): 'x'
+  C                          (  8): 'c'   [states: s_acute:ć, s_caron:č, s_cedilla:ç]
+  V                          (  9): 'v'
+  N                          ( 45): 'n'   [states: s_acute:ń, s_caron:ň, s_cedilla:ņ]
+  M                          ( 46): 'm'
+  comma (,<)                 ( 43): '?'
+  period (.>)                ( 47): ':'
+  slash (/?)                 ( 44): '_'
+  backslash (\|)             ( 42): "'"
+  space                      ( 49): ' '   [states: s_acute:´, s_grave:`, s_caron:ˇ, s_circumflex:^, s_breve:˘, s_ring:°, s_ogonek:˛, s_dotabove:˙, s_doubleacute:˝, s_diaeresis:¨, s_cedilla:¸]
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 23]                 : '5'
+  [other code 30]                 : '('
+  [other code 31]                 : 'o'   [states: s_acute:ó, s_grave:ò, s_circumflex:ô, s_doubleacute:ő, s_diaeresis:ö]
+  [other code 32]                 : 'u'   [states: s_acute:ú, s_grave:ù, s_circumflex:û, s_ring:ů, s_ogonek:ų, s_doubleacute:ű, s_diaeresis:ü]
+  [other code 33]                 : '/'
+  [other code 34]                 : 'i'   [states: s_acute:í, s_grave:ì, s_circumflex:î, s_ogonek:į, s_dotabove:ı, s_diaeresis:ï]
+  [other code 35]                 : 'p'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+  [other code 65]                 : ','
+  [other code 67]                 : '*'
+  [other code 69]                 : '+'
+  [other code 71]                 : 'CTRL-U+001B'
+  [other code 75]                 : '/'
+  [other code 76]                 : 'CTRL-U+0003'
+  [other code 78]                 : '-'
+  [other code 81]                 : '='
+  [other code 82]                 : '0'
+  [other code 83]                 : '1'
+  [other code 84]                 : '2'
+  [other code 85]                 : '3'
+  [other code 86]                 : '4'
+  [other code 87]                 : '5'
+  [other code 88]                 : '6'
+  [other code 89]                 : '7'
+  [other code 91]                 : '8'
+  [other code 92]                 : '9'
+  [other code 96]                 : 'CTRL-U+0010'
+  [other code 97]                 : 'CTRL-U+0010'
+  [other code 98]                 : 'CTRL-U+0010'
+  [other code 99]                 : 'CTRL-U+0010'
+  [other code 100]                : 'CTRL-U+0010'
+  [other code 101]                : 'CTRL-U+0010'
+  [other code 103]                : 'CTRL-U+0010'
+  [other code 109]                : 'CTRL-U+0010'
+  [other code 111]                : 'CTRL-U+0010'
+  [other code 115]                : 'CTRL-U+0001'
+  [other code 116]                : 'CTRL-U+000B'
+  [other code 117]                : '\x7f'
+  [other code 118]                : 'CTRL-U+0010'
+  [other code 119]                : 'CTRL-U+0004'
+  [other code 120]                : 'CTRL-U+0010'
+  [other code 121]                : 'CTRL-U+000C'
+  [other code 122]                : 'CTRL-U+0010'
+  [other code 123]                : 'CTRL-U+001C'
+  [other code 124]                : 'CTRL-U+001D'
+  [other code 125]                : 'CTRL-U+001F'
+  [other code 126]                : 'CTRL-U+001E'
+
+=== keyMap index 5 ===
+  ISO § (next to LShift)     ( 10): '`'
+  grave/tilde (left of 1)    ( 50): '<'
+  1                          ( 17): 't'
+  2                          ( 18): '1'
+  3                          ( 19): '2'
+  4                          ( 20): '3'
+  5                          ( 22): '6'
+  6                          ( 21): '4'
+  7                          ( 26): '7'
+  8                          ( 28): '8'
+  9                          ( 25): '9'
+  0                          ( 29): '0'
+  minus (-_)                 ( 27): '-'
+  equal (=+)                 ( 24): '='
+  Q                          ( 11): 'b'
+  W                          ( 12): 'q'
+  E                          ( 13): 'w'
+  R                          ( 14): 'e'
+  T                          ( 16): 'z'
+  Y                          ( 15): 'r'
+  A                          (  0): 'a'
+  S                          (  1): 's'
+  D                          (  2): 'd'
+  F                          (  3): 'f'
+  G                          (  5): 'g'
+  H                          (  4): 'h'
+  J                          ( 38): 'j'
+  K                          ( 40): 'k'
+  L                          ( 37): 'l'
+  semicolon (;:)             ( 39): "'"
+  quote ('")                 ( 41): ';'
+  Z                          (  6): 'y'
+  X                          (  7): 'x'
+  C                          (  8): 'c'
+  V                          (  9): 'v'
+  N                          ( 45): 'n'
+  M                          ( 46): 'm'
+  comma (,<)                 ( 43): ','
+  period (.>)                ( 47): '.'
+  slash (/?)                 ( 44): '/'
+  backslash (\|)             ( 42): '\\'
+  space                      ( 49): ' '
+  return                     ( 36): '\r'
+  tab                        ( 48): '\t'
+  [other code 23]                 : '5'
+  [other code 30]                 : ']'
+  [other code 31]                 : 'o'
+  [other code 32]                 : 'u'
+  [other code 33]                 : '['
+  [other code 34]                 : 'i'
+  [other code 35]                 : 'p'
+  [other code 51]                 : 'CTRL-U+0008'
+  [other code 53]                 : 'CTRL-U+001B'
+  [other code 65]                 : ','
+  [other code 67]                 : '*'
+  [other code 69]                 : '+'
+  [other code 71]                 : 'CTRL-U+001B'
+  [other code 75]                 : '/'
+  [other code 76]                 : 'CTRL-U+0003'
+  [other code 78]                 : '-'
+  [other code 81]                 : '='
+  [other code 82]                 : '0'
+  [other code 83]                 : '1'
+  [other code 84]                 : '2'
+  [other code 85]                 : '3'
+  [other code 86]                 : '4'
+  [other code 87]                 : '5'
+  [other code 88]                 : '6'
+  [other code 89]                 : '7'
+  [other code 91]                 : '8'
+  [other code 92]                 : '9'
+  [other code 96]                 : 'CTRL-U+0010'
+  [other code 97]                 : 'CTRL-U+0010'
+  [other code 98]                 : 'CTRL-U+0010'
+  [other code 99]                 : 'CTRL-U+0010'
+  [other code 100]                : 'CTRL-U+0010'
+  [other code 101]                : 'CTRL-U+0010'
+  [other code 103]                : 'CTRL-U+0010'
+  [other code 109]                : 'CTRL-U+0010'
+  [other code 111]                : 'CTRL-U+0010'
+  [other code 115]                : 'CTRL-U+0001'
+  [other code 116]                : 'CTRL-U+000B'
+  [other code 117]                : '\x7f'
+  [other code 118]                : 'CTRL-U+0010'
+  [other code 119]                : 'CTRL-U+0004'
+  [other code 120]                : 'CTRL-U+0010'
+  [other code 121]                : 'CTRL-U+000C'
+  [other code 122]                : 'CTRL-U+0010'
+  [other code 123]                : 'CTRL-U+001C'
+  [other code 124]                : 'CTRL-U+001D'
+  [other code 125]                : 'CTRL-U+001F'
+  [other code 126]                : 'CTRL-U+001E'
